@@ -1,0 +1,57 @@
+
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.warhammer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.warhammer img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* bar of names */
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 50px;
+  }
+  
+  .bar-item {
+    padding: 10px;
+    color: #000;
+  }
+  
+  .divider {
+    width: 1px;
+    height: 100%;
+    background-color: #000;
+    margin: 0 10px;
+  }
+
+  @media (max-width: 768px) {
+    .bar {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      
+    }
+    
+    .bar-item {
+      margin: 5px;
+      color: #000;
+    }
+    
+    .divider {
+      display: none;
+      background-color: #000;
+    }
+  }
